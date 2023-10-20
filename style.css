@@ -1,0 +1,49 @@
+body {
+    background-color:rgb(13, 234, 242);
+}
+#item-list {
+    list-style: none;
+    padding: 0;
+}
+
+#item-list {
+    background-color: blue;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.item-text {
+    flex: 1;
+}
+
+button:hover {
+    color: gold;
+    background-color: green;
+}
+
+.edit-btn,
+.delete-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.edit-btn:hover {
+    background-color: green;
+    color: gold;
+}
+.delete-btn:hover {
+    background-color: red;
+    color: gold;
+}
